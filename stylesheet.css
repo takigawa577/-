@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#header ul {
+    display: flex;
+    padding: 0 10px;
+}
+
+#header li {
+    list-style: none;
+}
+
+#header li a {
+    color: #24292e;
+}
+#header li a:hover {
+    opacity: 0.7;
+}
+.wrapper {
+    max-width: 960px;
+}
+
+.site-title {
+    width: 120px;
+    padding: 10px 0;
+
+}
+
+.site-title a {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    display: block;
+}
+
